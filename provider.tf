@@ -10,7 +10,7 @@ terraform {
 terraform {
   backend "s3" {
     bucket = "sudhakar-venu-sudhakar"
-    key    = "practice/terraform.tfstate"
+    key    = "jenkins/terraform.tfstate"
     region = "ap-south-1"
   }
 }
