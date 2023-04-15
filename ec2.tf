@@ -14,11 +14,11 @@ resource "aws_instance" "frontend" {
   }
 }
 
-resource "aws_s3_bucket" "backend" {
-  bucket = "sudhakar-venu-sudhakar"
+# resource "aws_s3_bucket" "backend" {
+#   bucket = "sudhakar-venu-sudhakar"
 
-  tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
-  }
-}
+#   tags = {
+#     Name        = "My bucket"
+#     Environment = "Dev"
+#   }
+# }
